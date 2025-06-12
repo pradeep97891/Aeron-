@@ -25,7 +25,6 @@ const ResetPassword = lazy(
 
 //Auth
 const Dashboard = lazy(() => import("@/pages/Auth/Dashboard/Dashboard"));
-const Operational = lazy(() => import("@/pages/Auth/Operational/Operational"));
 const PrePlannedDisruptionList = lazy(
   () => import("@/pages/Auth/PrePlannedDisruption/PrePlannedDisruptionList")
 );
@@ -90,7 +89,6 @@ Components.set("ResetPassword", ResetPassword);
 
 //Auth
 Components.set("Dashboard", Dashboard);
-Components.set("Operational", Operational);
 Components.set("PrePlannedDisruptionList", PrePlannedDisruptionList);
 Components.set("QueueList", QueueList);
 Components.set("QueueSettings", QueueSettings);

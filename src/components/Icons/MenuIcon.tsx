@@ -598,21 +598,6 @@ const FdQueue = () => {
   )
 };
 
-const FdOperationalIcon = () => {
-  return (
-    <svg width="31" height="32" viewBox="0 0 31 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <rect width="31" height="32" fill="transparent" />
-      <path className="cls-menu-fill" d="M15.5 4C21.299 4 26 8.701 26 14.5C26 20.299 21.299 25 15.5 25C9.701 25 5 20.299 5 14.5C5 8.701 9.701 4 15.5 4ZM15.5 5.5C10.529 5.5 6.5 9.529 6.5 14.5C6.5 19.471 10.529 23.5 15.5 23.5C20.471 23.5 24.5 19.471 24.5 14.5C24.5 9.529 20.471 5.5 15.5 5.5Z" fill="var(--t-menu-icon-color)"/>
-      <path className="cls-menu-fill" d="M15.5 10C16.328 10 17 10.672 17 11.5V14H19.5C20.328 14 21 14.672 21 15.5C21 16.328 20.328 17 19.5 17H16.5C15.672 17 15 16.328 15 15.5V11.5C15 10.672 15.672 10 15.5 10Z" fill="var(--t-menu-icon-color)"/>
-      <path className="cls-menu-fill" d="M8 27.5H23C23.828 27.5 24.5 28.172 24.5 29C24.5 29.828 23.828 30.5 23 30.5H8C7.172 30.5 6.5 29.828 6.5 29C6.5 28.172 7.172 27.5 8 27.5Z" fill="var(--t-menu-icon-color)"/>
-      <circle cx="10" cy="8" r="1.5" fill="var(--t-menu-icon-color)"/>
-      <circle cx="21" cy="8" r="1.5" fill="var(--t-menu-icon-color)"/>
-      <circle cx="26" cy="20" r="1.5" fill="var(--t-menu-icon-color)"/>
-      <circle cx="5" cy="20" r="1.5" fill="var(--t-menu-icon-color)"/>
-    </svg>
-  );
-};
-
 const Icons = new Map();
 
 Icons.set("MailerIcon", MailerIcon);
@@ -640,7 +625,6 @@ Icons.set("FdBIDashboard", FdBIDashboard);
 Icons.set("FdFAQ", FdFAQ);
 Icons.set("FdUserGuide", FdUserGuide);
 Icons.set("FdQueue", FdQueue);
-Icons.set("FdOperationalIcon", FdOperationalIcon);
 
 export {
   Icons,
@@ -668,6 +652,5 @@ export {
   FdBIDashboard,
   FdFAQ,
   FdUserGuide,
-  FdQueue,
-  FdOperationalIcon
+  FdQueue
 };
