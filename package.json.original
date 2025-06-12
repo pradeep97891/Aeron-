@@ -32,7 +32,6 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "dev": "env-cmd -f ./src/config/.env.dev craco start",
     "start": "env-cmd -f ./src/config/.env.dev craco start",
     "build": "yarn build:dev",
     "test": "craco test --watchAll=false",
